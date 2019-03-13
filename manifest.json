@@ -1,0 +1,12 @@
+{
+    "name": "SelectSum",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "An extension that makes it easy to sum values",
+    "permissions": [
+      "contextMenus"
+     ],
+    "background": { 
+      "scripts": ["src/background.js"]
+    }
+}
