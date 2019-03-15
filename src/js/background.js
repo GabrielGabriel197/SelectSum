@@ -12,8 +12,7 @@ chrome.contextMenus.onClicked.addListener(function(info, tab){
 
         if(!isNaN(Text)){
             Sum.push(parseFloat(Text));
-            chrome.extension.getBackgroundPage().console.log(Sum);
-            // isn't working for some reason
+            alert(Sum);
         }
     }
 });
